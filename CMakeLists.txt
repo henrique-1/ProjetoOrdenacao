@@ -3,4 +3,4 @@ project(Projeto_Ordenacao C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Projeto_Ordenacao main.c)
+add_executable(Projeto_Ordenacao main.c ordenacao.h ordenacao.c)
