@@ -22,9 +22,13 @@ void insertionSort(int arrayOriginal[], int n){
         chave = arrayOriginal[j];
         i = j - 1;
         numOperations++;
-        while((i >= 0) && (arrayOriginal[i] > chave)){
-            numOperations += 2;
-            arrayOriginal[(i + 1)] = arrayOriginal[i];
+        while((i >= 0)){
+            numOperations++;
+            if(arrayOriginal[i] > chave){
+                numOperations++;
+                arrayOriginal[(i + 1)] = arrayOriginal[i];
+
+            }
             i--;
         }
         arrayOriginal[(i + 1)] = chave;
@@ -35,6 +39,7 @@ void insertionSort(int arrayOriginal[], int n){
 
 /* Função insertionSortElegant(): ordena o array específico aplicando o método de ordenação por inserção com dois loop for */
 void insertionSortElegant(int arrayOriginal[], int n){
+    numOperations = 0;
     for(int i = 1; i < n; i++){
         numOperations++;
         for(int j = i; j > 0; j--){
