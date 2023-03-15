@@ -11,7 +11,7 @@ int *arrayOriginal; //Array gerado automaticamente e sem alteranção
 
 void geraArrayAleatorio(int arrayOriginal[], int n);
 void imprimeArray(int arrayOriginal[], int n);
-void insertionSort(int arrayOrigina[], int n);
+void insertionSort(int arrayOriginal[], int n);
 void insertionSortElegant(int arrayOriginal[], int n);
 
 #endif //PROJETO_ORDENACAO_ORDENACAO_H

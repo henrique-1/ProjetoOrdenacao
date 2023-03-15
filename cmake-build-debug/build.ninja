@@ -64,6 +64,18 @@ build CMakeFiles/Projeto_Ordenacao.dir/numOps.c.o: C_COMPILER__Projeto_Ordenacao
   OBJECT_DIR = CMakeFiles/Projeto_Ordenacao.dir
   OBJECT_FILE_DIR = CMakeFiles/Projeto_Ordenacao.dir
 
+build CMakeFiles/Projeto_Ordenacao.dir/copyArray.c.o: C_COMPILER__Projeto_Ordenacao_Debug /Users/bissoli/Documents/Estudos/Projeto$ e$ Análise$ de$ Algorítmos/Projeto$ Ordenacao/copyArray.c || cmake_object_order_depends_target_Projeto_Ordenacao
+  DEP_FILE = CMakeFiles/Projeto_Ordenacao.dir/copyArray.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Projeto_Ordenacao.dir
+  OBJECT_FILE_DIR = CMakeFiles/Projeto_Ordenacao.dir
+
+build CMakeFiles/Projeto_Ordenacao.dir/printArray.c.o: C_COMPILER__Projeto_Ordenacao_Debug /Users/bissoli/Documents/Estudos/Projeto$ e$ Análise$ de$ Algorítmos/Projeto$ Ordenacao/printArray.c || cmake_object_order_depends_target_Projeto_Ordenacao
+  DEP_FILE = CMakeFiles/Projeto_Ordenacao.dir/printArray.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Projeto_Ordenacao.dir
+  OBJECT_FILE_DIR = CMakeFiles/Projeto_Ordenacao.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Projeto_Ordenacao
@@ -72,7 +84,7 @@ build CMakeFiles/Projeto_Ordenacao.dir/numOps.c.o: C_COMPILER__Projeto_Ordenacao
 #############################################
 # Link the executable Projeto_Ordenacao
 
-build Projeto_Ordenacao: C_EXECUTABLE_LINKER__Projeto_Ordenacao_Debug CMakeFiles/Projeto_Ordenacao.dir/main.c.o CMakeFiles/Projeto_Ordenacao.dir/ordenacao.c.o CMakeFiles/Projeto_Ordenacao.dir/numOps.c.o
+build Projeto_Ordenacao: C_EXECUTABLE_LINKER__Projeto_Ordenacao_Debug CMakeFiles/Projeto_Ordenacao.dir/main.c.o CMakeFiles/Projeto_Ordenacao.dir/ordenacao.c.o CMakeFiles/Projeto_Ordenacao.dir/numOps.c.o CMakeFiles/Projeto_Ordenacao.dir/copyArray.c.o CMakeFiles/Projeto_Ordenacao.dir/printArray.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/Projeto_Ordenacao.dir
   POST_BUILD = :
