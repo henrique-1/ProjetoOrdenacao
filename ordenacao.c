@@ -32,3 +32,16 @@ void insertionSort(int arrayOriginal[], int n){
         arrayOriginal[(i + 1)] = chave;
     }
 }
+
+/* Função insertionSortElegant(): ordena o array específico aplicando o método de ordenação por inserção com dois loop for */
+void insertionSortElegant(int arrayOriginal[], int n){
+    for(int i = 1; i < n; i++){
+        for(int j = i; j > 0; j--){
+            if(arrayOriginal[j] < arrayOriginal[(j-1)]){
+                int key = arrayOriginal[(j-1)];
+                arrayOriginal[(j-1)] = arrayOriginal[j];
+                arrayOriginal[j] = key;
+            }
+        }
+    }
+}

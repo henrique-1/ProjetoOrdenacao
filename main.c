@@ -17,8 +17,20 @@ int main() {
     printf("Array Original[%d]:", n);
     imprimeArray(arrayOriginal, n);
 
+    printf("\n\n\tOrdenação por insertionSort()");
+    //imprimindo o Array Original
+    printf("\nArray Original[%d]:", n);
+    imprimeArray(arrayOriginal, n);
     //Ordenado pelo Método de Insertion Sort
     insertionSort(arrayOriginal, n);
+    printf("\nArray Ordenado[%d]:", n);
+    imprimeArray(arrayOriginal, n);
+
+    printf("\n\n\tOrdenação por insertionSortElegant()");
+    //imprimindo o Array Original
+    printf("\nArray Original[%d]:", n);
+    imprimeArray(arrayOriginal, n);
+    insertionSortElegant(arrayOriginal, n);
     printf("\nArray Ordenado[%d]:", n);
     imprimeArray(arrayOriginal, n);
 

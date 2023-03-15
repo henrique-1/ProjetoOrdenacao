@@ -1,10 +1,4 @@
 # ninja log v5
-10	382	1678310035704780043	CMakeFiles/Projeto_Ordenacao.dir/main.c.o	435da8930ee0523e
-383	454	1678310035779514537	Projeto_Ordenacao	ca4f97464a7bb520
-1	367	1678310212565713532	CMakeFiles/Projeto_Ordenacao.dir/main.c.o	435da8930ee0523e
-2	368	1678310212565712240	CMakeFiles/Projeto_Ordenacao.dir/ordenacao.c.o	dbf7815c985323e6
-368	441	1678310212642201978	Projeto_Ordenacao	516a34d76b63f86f
-5	436	1678310406339152275	CMakeFiles/Projeto_Ordenacao.dir/main.c.o	435da8930ee0523e
-437	517	1678310406425606163	Projeto_Ordenacao	516a34d76b63f86f
-1	440	1678310642735534628	CMakeFiles/Projeto_Ordenacao.dir/main.c.o	435da8930ee0523e
-440	516	1678310642816364708	Projeto_Ordenacao	516a34d76b63f86f
+1	37	1678913681545162690	CMakeFiles/Projeto_Ordenacao.dir/main.c.o	435da8930ee0523e
+37	73	1678913681581381068	Projeto_Ordenacao	516a34d76b63f86f
+2	43	1678913361443034577	CMakeFiles/Projeto_Ordenacao.dir/ordenacao.c.o	dbf7815c985323e6
