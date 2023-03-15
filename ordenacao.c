@@ -23,7 +23,7 @@ void insertionSort(int arrayOriginal[], int n){
         i = j - 1;
         numOperations++;
         while((i >= 0) && (arrayOriginal[i] > chave)){
-            numOperations++;
+            numOperations += 2;
             arrayOriginal[(i + 1)] = arrayOriginal[i];
             i--;
         }
